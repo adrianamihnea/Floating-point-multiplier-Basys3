@@ -1,0 +1,275 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Mon Dec 18 18:59:28 2023
+| Host         : DESKTOP-KTDAI7T running 64-bit major release  (build 9200)
+| Command      : report_methodology -file top_level_methodology_drc_routed.rpt -pb top_level_methodology_drc_routed.pb -rpx top_level_methodology_drc_routed.rpx
+| Design       : top_level
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 48
++-----------+----------+--------------------------+------------+
+| Rule      | Severity | Description              | Violations |
++-----------+----------+--------------------------+------------+
+| TIMING-23 | Warning  | Combinational loop found | 48         |
++-----------+----------+--------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-23#1 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[11]_INST_0_i_2/S[0] and output[11]_INST_0_i_2/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#2 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[11]_INST_0_i_2/S[1] and output[11]_INST_0_i_2/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#3 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[11]_INST_0_i_2/S[2] and output[11]_INST_0_i_2/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#4 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[11]_INST_0_i_2/S[3] and output[11]_INST_0_i_2/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#5 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[15]_INST_0_i_2/S[0] and output[15]_INST_0_i_2/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#6 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[15]_INST_0_i_2/S[1] and output[15]_INST_0_i_2/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#7 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[15]_INST_0_i_2/S[2] and output[15]_INST_0_i_2/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#8 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[15]_INST_0_i_2/S[3] and output[15]_INST_0_i_2/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#9 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[19]_INST_0_i_2/S[0] and output[19]_INST_0_i_2/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#10 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[19]_INST_0_i_2/S[1] and output[19]_INST_0_i_2/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#11 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[19]_INST_0_i_2/S[2] and output[19]_INST_0_i_2/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#12 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[19]_INST_0_i_2/S[3] and output[19]_INST_0_i_2/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#13 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_10/S[0] and output[22]_INST_0_i_10/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#14 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_10/S[1] and output[22]_INST_0_i_10/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#15 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_10/S[2] and output[22]_INST_0_i_10/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#16 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_10/S[3] and output[22]_INST_0_i_10/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#17 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_12/S[0] and output[22]_INST_0_i_12/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#18 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_12/S[1] and output[22]_INST_0_i_12/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#19 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_12/S[2] and output[22]_INST_0_i_12/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#20 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_12/S[3] and output[22]_INST_0_i_12/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#21 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_2/S[0] and output[22]_INST_0_i_2/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#22 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_2/S[1] and output[22]_INST_0_i_2/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#23 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_2/S[2] and output[22]_INST_0_i_2/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#24 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_2/S[3] and output[22]_INST_0_i_2/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#25 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_3/S[0] and output[22]_INST_0_i_3/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#26 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_3/S[1] and output[22]_INST_0_i_3/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#27 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_3/S[2] and output[22]_INST_0_i_3/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#28 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_3/S[3] and output[22]_INST_0_i_3/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#29 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_4/S[0] and output[22]_INST_0_i_4/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#30 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_4/S[1] and output[22]_INST_0_i_4/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#31 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_4/S[2] and output[22]_INST_0_i_4/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#32 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_4/S[3] and output[22]_INST_0_i_4/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#33 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_5/S[0] and output[22]_INST_0_i_5/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#34 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_5/S[1] and output[22]_INST_0_i_5/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#35 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_5/S[2] and output[22]_INST_0_i_5/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#36 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_5/S[3] and output[22]_INST_0_i_5/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#37 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_6/S[0] and output[22]_INST_0_i_6/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#38 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_6/S[1] and output[22]_INST_0_i_6/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#39 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_6/S[2] and output[22]_INST_0_i_6/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#40 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[22]_INST_0_i_6/S[3] and output[22]_INST_0_i_6/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#41 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[3]_INST_0_i_2/S[0] and output[3]_INST_0_i_2/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#42 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[3]_INST_0_i_2/S[1] and output[3]_INST_0_i_2/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#43 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[3]_INST_0_i_2/S[2] and output[3]_INST_0_i_2/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#44 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[3]_INST_0_i_2/S[3] and output[3]_INST_0_i_2/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#45 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[7]_INST_0_i_2/S[0] and output[7]_INST_0_i_2/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#46 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[7]_INST_0_i_2/S[1] and output[7]_INST_0_i_2/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#47 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[7]_INST_0_i_2/S[2] and output[7]_INST_0_i_2/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#48 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between output[7]_INST_0_i_2/S[3] and output[7]_INST_0_i_2/O[3] to disable the timing loop
+Related violations: <none>
+
+
