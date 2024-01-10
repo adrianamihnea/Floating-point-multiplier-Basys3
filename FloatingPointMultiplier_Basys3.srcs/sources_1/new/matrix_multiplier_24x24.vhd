@@ -1,32 +1,30 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity matrix_multiplier_24x24 is
-  Port (
-    matrix_A : in  STD_LOGIC_VECTOR (23 downto 0);
-    matrix_B : in  STD_LOGIC_VECTOR (23 downto 0);
-    result : out STD_LOGIC_VECTOR (47 downto 0)
-  );
-end matrix_multiplier_24x24;
+entity MatrixMultiplier is
+    Port ( A : in STD_LOGIC_VECTOR(23 downto 0);
+           B : in STD_LOGIC_VECTOR(23 downto 0);
+           Result : out STD_LOGIC_VECTOR(47 downto 0));
+end MatrixMultiplier;
 
-architecture Behavioral of matrix_multiplier_24x24 is
-  signal sum : signed(47 downto 0) := (others => '0');
+architecture Behavioral of MatrixMultiplier is
 begin
-  process(matrix_A, matrix_B)
-    variable A_matrix_0, A_matrix_1, B_matrix_0, B_matrix_1 : signed(23 downto 0);
-  begin
-    -- Update the matrices and compute the multiplication
-    A_matrix_0 := to_signed(to_integer(unsigned(matrix_A(7 downto 0))), 24);
-    A_matrix_1 := to_signed(to_integer(unsigned(matrix_A(15 downto 8))), 24);
-    B_matrix_0 := to_signed(to_integer(unsigned(matrix_B(7 downto 0))), 24);
-    B_matrix_1 := to_signed(to_integer(unsigned(matrix_B(15 downto 8))), 24);
+    process(A,B)
+        variable temp : STD_LOGIC_VECTOR(47 downto 0) := (others => '0');
+    begin
+        -- Reset result to all zeros
+        temp := (others => '0');
 
-    sum <= (others => '0'); -- Initialize sum to zero
+        -- Perform matrix multiplication using nested loops
+        for i in 0 to 23 loop
+            for j in 0 to 23 loop
+                temp(i+j) := temp(i+j) xor (A(i) and B(j));
+            end loop;
+        end loop;
 
-    sum <= sum + A_matrix_0 * B_matrix_0 + A_matrix_1 * B_matrix_1;
-
-  end process;
-
-  result <= std_logic_vector(sum);
+        -- Assign the result to the output port
+        Result <= temp;
+    end process;
 end Behavioral;

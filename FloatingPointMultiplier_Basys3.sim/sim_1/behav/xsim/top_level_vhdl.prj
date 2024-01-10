@@ -1,9 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../FloatingPointMultiplier_Basys3.srcs/sources_1/new/matrix_multiplier_24x24.vhd" \
-"../../../../FloatingPointMultiplier_Basys3.srcs/sources_1/new/substractor_127.vhd" \
-"../../../../FloatingPointMultiplier_Basys3.srcs/sources_1/new/sumator8biti.vhd" \
-"../../../../FloatingPointMultiplier_Basys3.srcs/sources_1/new/top_level.vhd" \
-
-# Do not sort compile order
-nosort

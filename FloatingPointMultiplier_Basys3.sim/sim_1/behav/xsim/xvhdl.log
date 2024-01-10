@@ -1,2 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/GitHub/FloatingPointMultiplier_Basys3/FloatingPointMultiplier_Basys3.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'top_level'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/GitHub/FloatingPointMultiplier_Basys3/FloatingPointMultiplier_Basys3.srcs/sources_1/new/ssd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ssd'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/GitHub/FloatingPointMultiplier_Basys3/FloatingPointMultiplier_Basys3.srcs/sources_1/new/basys3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'basys3'
